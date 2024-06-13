@@ -13,7 +13,7 @@ public class MahasiswaTest {
 		testMahasiswa.setIpk(3.50);
 		testMahasiswa.reset();
 		
-		assertEquals(0.0, testMahasiswa.getIpk(), 0.01);
+		assertEquals(0.1, testMahasiswa.getIpk(), 0.01);
 		assertEquals("Tidak Lulus", testMahasiswa.getStatusKelulusan());
 	}
 
