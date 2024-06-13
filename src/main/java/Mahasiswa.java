@@ -14,7 +14,7 @@ public class Mahasiswa {
 
 	public void setIpk(double ipk) throws IllegalArgumentException {
 		if (ipk < 0.0 || ipk > 4.0) {
-			throw new IllegalArgumentException("IPK harus berada di antara 0.0 dan 4.0");
+			throw new IllegalArgumentException("IPK harus berjumlah antara 0.0 dan 4.0");
 		}
 		this.ipk = ipk;
 	}
